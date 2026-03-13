@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proposal: Open-Source Development of the Antijoules Converter</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      background: #f9f9f9;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    h1, h2, h3 {
+      color: #1a1a8a;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      color: #555;
+      font-style: italic;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+    code, pre {
+      background: #f4f4f4;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-family: 'Consolas', monospace;
+    }
+    blockquote {
+      border-left: 4px solid #ccc;
+      padding-left: 1rem;
+      color: #555;
+      font-style: italic;
+    }
+    .callout {
+      background: #e8f4ff;
+      border: 1px solid #b3d4fc;
+      padding: 1.2rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ddd;
+      color: #666;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Proposal: Open-Source Development of the Antijoules Converter</h1>
+  <p class="tagline">A high-priority R&D project to investigate and build a revolutionary energy-harvesting device</p>
+  <p>Initial draft — March 2026</p>
+</header>
+
+<section>
+  <h2>Executive Summary</h2>
+  <p>We propose the creation of an <strong>antijoules converter</strong>: a device capable of extracting usable energy (joules) from the hidden "maintenance work" (antijoules) embedded in high-equilibrium systems such as magnetic domains, atomic bindings, or nuclear barriers.</p>
+  <p>This is a genuine "what if" scientific challenge. The converter itself is treated as a black box—we do not yet know its internal mechanism. The goal is to build, test, and iterate prototypes in an open-source, collaborative manner until a reproducible, high-efficiency version emerges.</p>
+  <p>Success would represent one of the most profound leaps in energy technology history: decentralized, near-limitless power without fuel depletion, thermal waste, or grid dependency.</p>
+</section>
+
+<section>
+  <h2>Core Concept: Antijoules and the Robert Field Effect (RFE)</h2>
+  <p>The foundation is the <strong>Robert Field Effect (RFE)</strong>, a conceptual framework describing apparent static equilibria as continuous, zero-dissipation energetic interactions.</p>
+  <blockquote>
+    <p>"Potential energy is antijoules: energy invested to prevent relaxation. Equilibrium demands continuous (invisible) effort. There is no free energy — only pre-paid potential waiting behind barriers, extractable only at cost."</p>
+    <footer>— RFE documentation (https://glargod.github.io/RFE/)</footer>
+  </blockquote>
+
+  <p>Key insights from RFE:</p>
+  <ul>
+    <li>Equilibria are not inactivity — they are the most efficient, lossless mode of perpetual energetic negotiation between cohesive and dispersive forces.</li>
+    <li>Examples: A permanent magnet on steel performs ongoing "work" to maintain alignment against thermal disruption; atomic nuclei resist decay; cosmic structures sustain configurations.</li>
+    <li>Work is redefined broadly: includes classical force×distance, field coercion, Pauli exclusion enforcement, potential resistance, and sustained balances.</li>
+    <li>Activation is material-dependent: Compatible partners (steel for magnets, bonds for atoms) enforce non-native geometry → persistent maintenance without macroscopic dissipation.</li>
+  </ul>
+
+  <p>If laboratories can develop a method to controllably lower these barriers and convert the stored antijoules to usable electrical or kinetic energy, we unlock vast reserves already present in common materials.</p>
+</section>
+
+<section>
+  <h2>Proposed Fuel Sources & Volumetric Potential (Speculative)</h2>
+  <p>Focus on materials with high antijoule density. Equivalences below assume high-efficiency conversion (e.g., 90%+), bypassing thermal cycles. These are theoretical benchmarks for R&D targets.</p>
+
+  <table style="width:100%; border-collapse:collapse; margin:1rem 0;">
+    <tr style="background:#eee;">
+      <th style="padding:0.8rem; border:1px solid #ccc;">Material</th>
+      <th style="padding:0.8rem; border:1px solid #ccc;">Density (g/cm³)</th>
+      <th style="padding:0.8rem; border:1px solid #ccc;">Harvestable Energy (MJ/kg, speculative)</th>
+      <th style="padding:0.8rem; border:1px solid #ccc;">Usable per 1 cm³ (approx. MJ)</th>
+      <th style="padding:0.8rem; border:1px solid #ccc;">Application Example</th>
+    </tr>
+    <tr>
+      <td>Nickel-63 (beta decay)</td>
+      <td>~8.9</td>
+      <td>~26,720</td>
+      <td>~238</td>
+      <td>Eternal low-power clock / sensor</td>
+    </tr>
+    <tr>
+      <td>Thorium-232 (fission chain)</td>
+      <td>~11.7</td>
+      <td>~80,000,000</td>
+      <td>~842</td>
+      <td>Household / vehicle power (AA-sized unit for decades)</td>
+    </tr>
+    <tr>
+      <td>Helium-3 (fusion barriers)</td>
+      <td>~0.000178 (gas STP)</td>
+      <td>~588,000,000</td>
+      <td>Low at STP; high when compressed</td>
+      <td>Space propulsion / high-energy systems</td>
+    </tr>
+  </table>
+
+  <p class="callout"><strong>Start here:</strong> Ni-63 is safest and most accessible for initial prototypes. Scale to Th-232 once proof-of-concept is achieved.</p>
+</section>
+
+<section>
+  <h2>The Black Box Converter</h2>
+  <p>We do not know what is inside the converter. It may involve resonance perturbations, field modulations, quantum vacuum interactions, or entirely novel physics. That is precisely why this is a high-priority open R&D project.</p>
+  <p>Initial gating/control ideas for exploration:</p>
+  <ul>
+    <li>Adaptive bio-interfaces: Use cultured neuron organoids (as demonstrated in the 2026 Cortical Labs Doom-playing experiment) as simple, learning controllers for phased energy release.</li>
+    <li>Resonance tuning: Modulate external fields or frequencies to lower barriers incrementally without runaway effects.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Minimal Viable Prototype</h2>
+  <p>Build and open-source this demo as the entry point:</p>
+  <ul>
+    <li>1 cm³ Ni-63 source (beta-shielded)</li>
+    <li>Converter (betavoltaic baseline or black-box variant)</li>
+    <li>Low-power LCD showing "days since seal" (or similar self-referential counter)</li>
+    <li>Sealed in transparent, vacuum-potted epoxy for tamper-evident visibility</li>
+  </ul>
+  <p>Goal: Sustained electrical output with no external input, measurable over months/years. Replicate in multiple independent labs.</p>
+</section>
+
+<section>
+  <h2>Call to Laboratories & Collaborators</h2>
+  <p>This is a high-priority scientific R&D initiative. Allocate teams, funding, and resources now. Treat it as a moon-shot-level project with open-source principles:</p>
+  <ol>
+    <li>Build and test Ni-63 cube prototypes</li>
+    <li>Share designs, data, failures openly (GitHub, arXiv, etc.)</li>
+    <li>Iterate toward higher-density fuels (Th-232, etc.)</li>
+    <li>Publish rigorously — peer review accelerates progress</li>
+    <li>Invite global participation — no gatekeepers</li>
+  </ol>
+
+  <p class="callout"><strong>Everyone is welcome.</strong> Independent makers, university labs, national facilities, private R&D groups — collaborate freely. The first reproducible converter changes everything.</p>
+</section>
+
+<footer>
+  <p>Inspired by discussions on RFE (https://glargod.github.io/RFE/) and open scientific inquiry.</p>
+  <p>License: CC0 / Public Domain — copy, modify, build, share without restriction.</p>
+  <p>Contact / discussion: @BobTheFixer73 on X</p>
+</footer>
+
+</body>
+</html>
