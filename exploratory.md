@@ -87,6 +87,8 @@ Materials science already exploits metastables (shape-memory alloys release on h
 
 Even clean null results are valuable and should be reported — they help map the parameter space.
 
+Thanks for reading. Build, test, share failures openly. The data decides.
+
 ## Appendix: Speculative Extensions (Separate Document Recommended)
 
 The ideas presented in the main document are intentionally limited to accessible, low-risk metastable systems (magnets, potentially Ni-63) that can be probed with garage-level tools and standard measurement techniques.
@@ -113,7 +115,3 @@ These remain **thought experiments only** and are deliberately excluded from the
 They may be explored in a separate document or discussion thread if/when empirical signals from the core experiments justify expanding the conceptual scope.
 
 Anyone interested in these ideas is encouraged to treat them as speculative narrative rather than engineering guidance until grounded evidence appears.
-
-Thanks for reading. Build, test, share failures openly. The data decides.
-
-(Appendix: UCT/pleichyma/Roswell links remain separate speculative thought experiments — excluded here to keep focus on testable engineering hooks.)
