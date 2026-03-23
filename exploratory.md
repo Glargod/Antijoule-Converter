@@ -87,6 +87,33 @@ Materials science already exploits metastables (shape-memory alloys release on h
 
 Even clean null results are valuable and should be reported — they help map the parameter space.
 
+## Appendix: Speculative Extensions (Separate Document Recommended)
+
+The ideas presented in the main document are intentionally limited to accessible, low-risk metastable systems (magnets, potentially Ni-63) that can be probed with garage-level tools and standard measurement techniques.
+
+Separate from this core engineering hook are more speculative extensions that invoke unproven or highly theoretical physics concepts:
+
+- **Universal Coalescence Theory (UCT)** — a proposed underlying fluid-like substrate (pleichyma) from which motion (coflux) and time flow (tflux) emerge, with gravity as emergent drag.  
+  → https://glargod.github.io/uctheory/
+
+- **Robert Field Effect (RFE)** — the foundational reframing of equilibrium systems as ongoing, ultra-efficient maintenance negotiations (antijoules as pre-paid ledger entries).  
+  → https://glargod.github.io/RFE/
+
+- **Antijoule Converter overview** — broader conceptual landing page tying RFE/antijoules to potential applications.  
+  → https://glargod.github.io/Antijoule-Converter/
+
+- **Early proposed draft** — an initial version of the converter idea (pre-refinement).  
+  → https://github.com/Glargod/Antijoule-Converter/proposed-1.md
+
+- **Pleichymal envelope modulation** for drag-free propulsion or space management (thin field sheath parting the medium ahead and rejoining behind).  
+- Historical ufology claims (e.g., Roswell 1947 radar-induced envelope collapse leading to sudden aerodynamic shock on ultra-light craft).
+
+These remain **thought experiments only** and are deliberately excluded from the main framework to preserve focus and credibility for the testable anomaly-hunting proposal.
+
+They may be explored in a separate document or discussion thread if/when empirical signals from the core experiments justify expanding the conceptual scope.
+
+Anyone interested in these ideas is encouraged to treat them as speculative narrative rather than engineering guidance until grounded evidence appears.
+
 Thanks for reading. Build, test, share failures openly. The data decides.
 
 (Appendix: UCT/pleichyma/Roswell links remain separate speculative thought experiments — excluded here to keep focus on testable engineering hooks.)
